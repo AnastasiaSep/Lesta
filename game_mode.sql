@@ -13,7 +13,7 @@ inner join
     on
         a.team_build_type_id = c.cat_value
 where
-    c.cat_type = 'ARENA_TYPES'
+    c.cat_type = 'TEAM_BUILD_TYPE'
 group by
     users_id, c.cat_name
 order by
