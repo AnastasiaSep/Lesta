@@ -32,3 +32,6 @@ group by
 order by
     max_hp desc
 limit 10;
+
+
+ показатели эффективности
